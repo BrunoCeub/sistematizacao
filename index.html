@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Oficina Family Business</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div>
+		<nav class="menuSuperior">
+			<div class="logo">
+				<img src="imagens/logo.png" alt="Family Business">
+			</div>
+			<a href="">Trabalhe Conosco</a>
+			<a href="">Princípios</a>
+			<a href="">Informações</a>
+			<a class="itemAtivado" href="">Início</a>
+		</nav>
+	</div>
+	<hr>
+	<div class="quemSomos">
+		<h1>Quem Somos ?</h1>
+		<div class="foto1">
+			<img src="imagens/foto1.png" alt="Dinho Araújo">
+			<p>Dinho Araújo, formado em Engenharia Elétrica, responsável por conduzir e administrar o pessoal responsável pela manutenção elétrica dos carros.
+				<br>Todo problema relacionado com a parte eletrica: sejam peças, reparos, trocas ou orçamentos é passado por ele.
+				<br>Um dos sócios responsáveis pelo empreendimento.
+			</p>
+		</div>
+		<div class="foto2">
+			<img src="imagens/foto2.png" alt="Samuel Araújo">
+			<p>Samuel Araújo, formado em Direito, responsável por toda a parte jurídica da empresa e também organiza e gerencia todo a parte de -
+				<br>recursos humanos, parcerias e patrocínios do empreendimento. Também faz parte da cadeira de sócios da empresa.
+			</p>
+		</div>
+		<div class="foto3">
+			<img src="imagens/foto3.png" alt="João Araújo">
+			<p>João Araújo, técnico em Mecânica, idealizador e criador da marca Family Business. Possui dois filhos Dinho e Samuel, mais de 40 anos -
+				<br>de experiência em mecânica, trabalha com os serviços de mecânica de fato, parecer mais técnico sobre os problemas e decide as dire -
+				<br>trizes gerais da companhia. Principal membro e sócio da empresa.
+			</p>
+		</div>
+	</div>
+	<div class="nossoTrabalho">
+		<h1>Nosso Trabalho</h1>
+		<h3>Nosso trabalho visa a uma atividade mecânica moderna e fácil de contratar. Temos funcionários capacitados e muito bem treinados para resolver qualquer tipo de problema que o seu carro possa ter. Com o intúito de mais praticidade e acesso ao nossos usuários, abaixo <b>temos um formulário</b> que ao ser preenchido com todas as informações solicitadas, no prazo máximo de 24h estaremos entrando em contato com você e agendando o serviço. Sem burocracia, simples, rápido e prático... da forma que deve ser. ENTRE EM CONTATO!</h3>
+		<img src="imagens/chaveicon.png" alt="Family Business">
+	</div>
+	<hr style="margin-top: 500px">
+	<div class="ordemServico">
+		<h2>Abra sua Ordem de Serviço:</h2>
+		<form action="" method="post">
+			<table>
+				<tr>
+					<td><label for="nome">Nome: </label></td>
+					<td><input type="text" placeholder="Insira seu nome" id="nome" minlength="3" maxlength="30" required></td>
+				</tr>
+				<tr>
+					<td><label for="telefone">Telefone: </label></td>
+					<td><input type="number" placeholder="Ex: (99) 99999-9999" id="telefone" minlength="9" maxlength="10" required></td>
+				</tr>
+				<tr>
+					<td><label for="email">E-mail: </label></td>
+					<td><input type="email" placeholder="nome@hotmail.com" id="email" minlength="11" maxlength="30" required></td>
+				</tr>
+				<tr>
+					<td><label for="cidade">Cidade: </label></td>
+					<td><input type="text" placeholder="Insira sua cidade" id="cidade" minlength="10" maxlength="50" required></td>
+				</tr>
+			</table>
+			<br>
+			<label>Breve descrição do seu problema:</label>
+			<br>
+			<textarea id="descricao" minlength="30" maxlength="300" required>Escreva aqui...</textarea>
+			<br>
+			<input type="button" name="enviar" value="Enviar Orçamento" onclick="Enviado - Estaremos analisando e entraremos em contato!">
+		</form>
+	</div>
+</body>
+</html>
